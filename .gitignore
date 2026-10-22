@@ -1,5 +1,6 @@
 # Maven build output
 target/
+build/
 *.class
 
 # IntelliJ IDEA
@@ -16,6 +17,7 @@ logs/
 # Test reports
 allure-results/
 allure-report/
+.allure/
 test-output/
 reports/
 
@@ -36,7 +38,3 @@ Desktop.ini
 *.swp
 *.swo
 *~
-
-# Docker local overrides
-docker-compose.override.yml
-compose.override.yaml
